@@ -23,7 +23,9 @@ bot.on('guildMemberRemove', member =>{
         .setDescription(':cry: **' + member.user.username + '** a quitté ' + member.guild.name)
         .setFooter('Nous sommes désormais ' + member.guild.memberCount)
     member.guild.channels.get('ID DU CHANNEL').send(embed)
-
+    
+});
+    
 const ban = require('./kick et ban/ban');
 
 
