@@ -13,8 +13,8 @@ bot.on('guildMemberAdd', member =>{
     let embed = new Discord.RichEmbed()
         .setDescription(':tada: **' + member.user.username + '** a rejoint ' + member.guild.name)
         .setFooter('Nous sommes désormais ' + member.guild.memberCount)
-    member.guild.channels.get('ID DU CHANNEL').send(embed)
-    member.addRole('ID DU ROLE A AJOUTER AUTOMATIQUEMENT')
+    member.guild.channels.get('490803629603946527').send(embed)
+    member.addRole('490608831081086987')
  
 });
  
@@ -22,7 +22,7 @@ bot.on('guildMemberRemove', member =>{
     let embed = new Discord.RichEmbed()
         .setDescription(':cry: **' + member.user.username + '** a quitté ' + member.guild.name)
         .setFooter('Nous sommes désormais ' + member.guild.memberCount)
-    member.guild.channels.get('ID DU CHANNEL').send(embed)
+    member.guild.channels.get('490803629603946527').send(embed)
     
 });
     
